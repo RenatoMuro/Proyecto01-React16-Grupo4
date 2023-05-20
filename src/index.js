@@ -17,9 +17,9 @@ import './index.css';
 
 const xtitulo='Primer laboratorio';
 const xcolor='white';
-const lcurso1=['Celular1','Celular2','Celular3','Celular4'];
-const lcurso2=['Celular5','Celular6','Celular7','Celular8'];
-const lcurso3=['Celular9','Celular10','Celular11','Celular12'];
+const lcurso1=['Samsung Galaxy A73 5G 128GB 8GB - Colores','Celular Samsung Galaxy-A13 Negro','Samsung Galaxy S20 Fe SM-G781U1/DS 6+128GB - Rosa','Samsung Galaxy S10 Plus SM-G975U 128GB Negro Single SIM'];
+const lcurso2=['Samsung Galaxy S10 Plus SM-G975U 128GB Negro Single SIM','Samsung Galaxy S20 Ultra SM-G988U 128GB Negro','Samsung Galaxy S10 Plus SM-G975U 128GB Azul','Samsung Galaxy A22 64GB 4GB Negro'];
+const lcurso3=['Samsung Galaxy S10 Plus SM-G975U 128GB Verde Single SIM','Samsung Galaxy A22 64GB 4GB Negro','Samsung Galaxy S10 Plus SM-G975U 128GB Blanco Single SIM','Galaxy A23 128GB 4GB negro'];
 
 const JSX = (
   <div className='contenedor'>
@@ -33,13 +33,13 @@ const JSX = (
     </div>
     <ul className='lista1'>
       <li><a href='#'>{lcurso1[0]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso1[1]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso1[2]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso1[3]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
     </ul>
     <p></p>
     <div className='cursos2'>
@@ -50,13 +50,13 @@ const JSX = (
     </div>
     <ul className='lista2'>
       <li><a href='#'>{lcurso2[0]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso2[1]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso2[2]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso2[3]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
     </ul>
     <p></p>
     <div className='cursos3'>
@@ -67,13 +67,13 @@ const JSX = (
     </div>
     <ul className='lista3'>
       <li><a href='#'>{lcurso3[0]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso3[1]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso3[2]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
       <li><a href='#'>{lcurso3[3]} -
-      Precio: S/{Math.round(Math.random() * 100)} </a></li>
+      Precio: S/{Math.round(Math.random()*100)} </a></li>
     </ul>
     <div className='redessociales'>
       <img src={logo13} className='App-logo' alt='logo' />
