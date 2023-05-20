@@ -24,7 +24,7 @@ const lcurso3=['Samsung Galaxy S10 Plus SM-G975U 128GB Verde Single SIM','Samsun
 const JSX = (
   <div className='contenedor'>
     <h1 className='titulo' style={{color:xcolor}}>{xtitulo}</h1>
-    <h1 className='titulo' style={{color:xcolor}}>Primer Proyecto</h1>
+    <h1 className='titulo' style={{color:xcolor}}>Primera entrega</h1>
     <div className='cursos1'>
       <img src={logo1} className='App-logo' alt='logo' />
       <img src={logo2} className='App-logo' alt='logo' />
